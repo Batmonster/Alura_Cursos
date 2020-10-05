@@ -1,0 +1,14 @@
+{
+    "name": "willian_f_silva/buscador-cursos",
+    "description": "Projeto para buscar cursos",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Willian Felipe",
+            "email": "willian.felipe160@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.1"
+    }
+}
