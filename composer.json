@@ -22,5 +22,8 @@
         "phpunit/phpunit": "8",
         "squizlabs/php_codesniffer": "*",
         "phan/phan": "^3.2"
+    },
+    "scripts": {
+        "test": ""   
     }
 }
