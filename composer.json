@@ -24,6 +24,19 @@
         "phan/phan": "^3.2"
     },
     "scripts": {
-        "test": ""   
+        "phan": "phan --allow-polyfill-parser",
+        "cs": "phpcs --standard=PSR12 Aulas\\Aulas_PHP\\Composer\\src",
+        "test": "phpunit Aulas\\Aulas_PHP\\Composer\\tests\\TestBuscadorDeCursos.php",
+        "check": [
+            "@phan",
+            "@cs",
+            "@test"
+        ],
+        "post-update-cmd": [
+            "@test"   
+        ]
+    },
+    "scripts-descriptions": {
+        "check": "Roda as verificações do codigo. PHAN, PHPSC  e PHPUNIT"
     }
 }
