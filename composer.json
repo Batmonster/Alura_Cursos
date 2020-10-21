@@ -16,7 +16,7 @@
     "autoload": {
         "files": ["functions.php"],
         "psr-4": {
-            "Alura\\BuscadorDeCursos\\": "C:/Alura_Cursos/Aulas/Aulas PHP/Composer/src/"
+            "Alura\\BuscadorDeCursos\\": "C:/Alura_Cursos/Aulas/Aulas_PHP/Composer/src/"
         }
     },
     "require-dev": {
@@ -32,15 +32,7 @@
             "@phan",
             "@cs",
             "@test"
-        ],
-        "post-update-cmd": [
-            "@test"   
-        ]
-    },
-    "scripts-descriptions": {
-        "check": "Roda as verificações do codigo. PHAN, PHPSC  e PHPUNIT"
-    },
-    "license": "GPL-3.0",
-    "bin": ["buscar-cursos.php"]
+        ]   
+     }
 
 }
