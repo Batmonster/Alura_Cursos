@@ -16,6 +16,7 @@
     "autoload": {
         "files": ["functions.php"],
         "psr-4": {
+            "Alura\\Pdo\\Infrastructure\\Persistence\\": "C:/Alura_Cursos/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infrastructure/",
             "Alura\\BuscadorDeCursos\\": "C:/Alura_Cursos/Aulas/Aulas_PHP/Composer/src/",
             "Alura\\Pdo\\Domain\\Model\\": "C:/Alura_Cursos/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Domain/Model/"
         }

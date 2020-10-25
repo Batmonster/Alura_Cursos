@@ -34,6 +34,7 @@ return array(
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
     'Composer\\XdebugHandler\\' => array($vendorDir . '/composer/xdebug-handler/src'),
     'Composer\\Semver\\' => array($vendorDir . '/composer/semver/src'),
+    'Alura\\Pdo\\Infrastructure\\Persistence\\' => array($baseDir . '/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infrastructure'),
     'Alura\\Pdo\\Domain\\Model\\' => array($baseDir . '/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Domain/Model'),
     'Alura\\BuscadorDeCursos\\' => array($baseDir . '/Aulas/Aulas_PHP/Composer/src'),
     'AdvancedJsonRpc\\' => array($vendorDir . '/felixfbecker/advanced-json-rpc/lib'),

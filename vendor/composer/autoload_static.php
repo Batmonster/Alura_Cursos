@@ -80,6 +80,7 @@ class ComposerStaticInitef7d53c4632efee010b08a1b38f49315
         ),
         'A' => 
         array (
+            'Alura\\Pdo\\Infrastructure\\Persistence\\' => 37,
             'Alura\\Pdo\\Domain\\Model\\' => 23,
             'Alura\\BuscadorDeCursos\\' => 23,
             'AdvancedJsonRpc\\' => 16,
@@ -200,6 +201,10 @@ class ComposerStaticInitef7d53c4632efee010b08a1b38f49315
         'Composer\\Semver\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
+        ),
+        'Alura\\Pdo\\Infrastructure\\Persistence\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infrastructure',
         ),
         'Alura\\Pdo\\Domain\\Model\\' => 
         array (
