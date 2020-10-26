@@ -26,7 +26,7 @@ class PdoStudentRepository implements StudentRepository
     {
         $sqlQuery = 'SELECT * FROM students WHERE birth_date = ?;';
         $stmt = $this->connection->prepare(sqlQuery);
-        $stmt->bindValue(parameter:1, $birthDate.format(format:'Y-m-d'));
+        $stmt->bindValue(1, $birthDate.format('Y-m-d'));
         $stmt->execute();
 
         return $this->hydrateStudentList($stmt);
@@ -34,7 +34,7 @@ class PdoStudentRepository implements StudentRepository
 
     private function hydrateStudentList(\PDOStatement $stmt): array
     {
-        $studentDataList = $stmt->fetchAll(fetch_style: PDO::FETCH_ASSOC);
+        $studentDataList = $stmt->fetchAll( PDO::FETCH_ASSOC);
         $studentList = [];
 
         foreach ($studentDataList as $studentData) {
@@ -64,7 +64,7 @@ class PdoStudentRepository implements StudentRepository
 
         $success = $stmt->execute([
             ':name' => $student->name(),
-            ':birth_date' => $student->birthDate()->format(format:'Y-m-d'),
+            ':birth_date' => $student->birthDate()->format('Y-m-d'),
         ]);
 
         $student->defineId($this->connection->lasInsertId());
@@ -76,17 +76,17 @@ class PdoStudentRepository implements StudentRepository
     {
         $updateQuery = 'UPDATE students SET name = :name, birth_date = :birth_date WHERE id = :id;';
         $stmt = $this->connection->prepare($updateQuery);
-        $stmt->bindValue(parameter:':name', $student->name());
-        $stmt->bindValue(parameter:':birth_date', $student->birthDate()->format(format:'Y-m-d'));
-        $stmt->bindValue(parameter:':id', $student->id(), data_type:PDO::PARAM_INT);
+        $stmt->bindValue(':name', $student->name());
+        $stmt->bindValue(':birth_date', $student->birthDate()->format('Y-m-d'));
+        $stmt->bindValue(':id', $student->id(), PDO::PARAM_INT);
 
         return $stmt->execute();
     }
 
     public function remove(Student $student): bool
     {
-        $stmt = $this->connection->prepare(statement: 'DELETE FROM students WHERE id = ?;');
-        $stmt->bindValue(parameter: 1, $student->id(), data_type: PDO::PARAM_INT_);
+        $stmt = $this->connection->prepare( 'DELETE FROM students WHERE id = ?;');
+        $stmt->bindValue( 1, $student->id(),  PDO::PARAM_INT_);
 
         return $stmt->execute();
     }
