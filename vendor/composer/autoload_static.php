@@ -80,7 +80,10 @@ class ComposerStaticInitef7d53c4632efee010b08a1b38f49315
         ),
         'A' => 
         array (
-            'Alura\\Pdo\\Infrastructure\\Persistence\\' => 37,
+            'Alura\\Pdo\\Infraestructure\\Repository\\' => 37,
+            'Alura\\Pdo\\Infraestructure\\Persistence\\' => 38,
+            'Alura\\Pdo\\Infraestructure\\' => 26,
+            'Alura\\Pdo\\Domain\\Repository\\' => 28,
             'Alura\\Pdo\\Domain\\Model\\' => 23,
             'Alura\\BuscadorDeCursos\\' => 23,
             'AdvancedJsonRpc\\' => 16,
@@ -202,9 +205,21 @@ class ComposerStaticInitef7d53c4632efee010b08a1b38f49315
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
         ),
-        'Alura\\Pdo\\Infrastructure\\Persistence\\' => 
+        'Alura\\Pdo\\Infraestructure\\Repository\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infrastructure',
+            0 => __DIR__ . '/../..' . '/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infraestructure/Repository',
+        ),
+        'Alura\\Pdo\\Infraestructure\\Persistence\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infraestructure/Persistence',
+        ),
+        'Alura\\Pdo\\Infraestructure\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infraestructure',
+        ),
+        'Alura\\Pdo\\Domain\\Repository\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Domain/Repository',
         ),
         'Alura\\Pdo\\Domain\\Model\\' => 
         array (

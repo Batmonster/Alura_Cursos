@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="banco" uuid="5b98d0d4-b518-47c1-8836-1384eb855895">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Alura_Cursos\Aulas\Aulas_PHP\PDO\php-pdo-projeto-inicial\banco.sqlite</jdbc-url>
+    </data-source>
+  </component>
+</project>

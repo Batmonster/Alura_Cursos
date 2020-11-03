@@ -19,13 +19,32 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a4396dd-f703-44a8-a398-de26571d8a06" name="Default Changelist" comment="Atualizar" />
+    <list default="true" id="5a4396dd-f703-44a8-a398-de26571d8a06" name="Default Changelist" comment="Atualizar">
+      <change afterPath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Domain/Model/Phone.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Alura_Cursos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Alura_Cursos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/banco.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/banco.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/conexao.php" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/conexao.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/criar-turma.php" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/criar-turma.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/inserir-aluno.php" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/inserir-aluno.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/lista-alunos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/lista-alunos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/remover-aluno.php" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/remover-aluno.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Domain/Model/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Domain/Model/Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Domain/Repository/StudentRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Domain/Repository/StudentRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infrastructure/Persistence/ConnectionCreator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infraestructure/Persistence/ConnectionCreator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infrastructure/Repository/PdoStudentRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infraestructure/Repository/PdoStudentRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -44,7 +63,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/willian-f-silva/Alura_Cursos" />
+      </set>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
@@ -116,7 +142,36 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="PHP Script.lista-alunos.php">
+    <configuration name="conexao.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/conexao.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="criar-turma.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" singleton="false" temporary="true" path="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/criar-turma.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="lista-alunos.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" singleton="false" temporary="true" path="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/lista-alunos.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.4" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="remover-aluno.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/remover-aluno.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.lista-alunos.php" />
+        <item itemvalue="PHP Script.remover-aluno.php" />
+        <item itemvalue="PHP Script.conexao.php" />
+        <item itemvalue="PHP Script.criar-turma.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -127,6 +182,12 @@
       <option name="presentableId" value="Default" />
       <updated>1603714221170</updated>
       <workItem from="1603714222893" duration="2297000" />
+      <workItem from="1603733985424" duration="2548000" />
+      <workItem from="1603738640646" duration="186000" />
+      <workItem from="1603738838691" duration="412000" />
+      <workItem from="1603739886186" duration="5096000" />
+      <workItem from="1603808835234" duration="10592000" />
+      <workItem from="1603884775731" duration="3609000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizar">
       <created>1603715313009</created>
@@ -151,27 +212,84 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Atualizar" />
     <option name="LAST_COMMIT_MESSAGE" value="Atualizar" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="198" key="#Inspections" timestamp="1603714318621">
+    <state x="572" y="191" key="#CLI_Interpreters" timestamp="1603737584644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="586" y="198" key="#Inspections/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1603714318621" />
+    <state x="572" y="191" key="#CLI_Interpreters/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1603737584644" />
+    <state x="586" y="198" key="#Inspections" timestamp="1603895572629">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1603895572629" />
+    <state x="699" y="179" key="#PHP" timestamp="1603737586189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="699" y="179" key="#PHP/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1603737586189" />
+    <state x="336" y="360" key="#SQL_Dialects" timestamp="1603828160283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="336" y="360" key="#SQL_Dialects/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1603828160283" />
+    <state x="540" y="175" key="#Test_Frameworks" timestamp="1603744988398">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#Test_Frameworks/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1603744988398" />
+    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603893575239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1603893575239" />
+    <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser" timestamp="1603895123473">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1603895123473" />
     <state x="384" y="40" width="1078" height="888" key="CommitChangelistDialog2" timestamp="1603715760810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="384" y="40" width="1078" height="888" key="CommitChangelistDialog2/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1603715760810" />
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1603828158887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="274" key="FileChooserDialogImpl/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1603828158887" />
+    <state width="1876" height="513" key="GridCell.Tab.0.bottom" timestamp="1604399699343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="513" key="GridCell.Tab.0.bottom/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1604399699343" />
+    <state width="1876" height="513" key="GridCell.Tab.0.center" timestamp="1604399699343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="513" key="GridCell.Tab.0.center/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1604399699343" />
+    <state width="1876" height="513" key="GridCell.Tab.0.left" timestamp="1604399699343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="513" key="GridCell.Tab.0.left/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1604399699343" />
+    <state width="1876" height="513" key="GridCell.Tab.0.right" timestamp="1604399699343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="513" key="GridCell.Tab.0.right/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1604399699343" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1603893581630">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1603893581630" />
+    <state x="794" y="442" key="NewPhpFileDialog" timestamp="1603827500791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="442" key="NewPhpFileDialog/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1603827500791" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603715739733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1603715739733" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1603714635543">
+    <state x="667" y="119" width="595" height="801" key="find.popup" timestamp="1603894424817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="119" width="585" height="801" key="find.popup/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1603714635543" />
+    <state x="667" y="119" width="595" height="801" key="find.popup/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1603894424817" />
+    <state x="616" y="235" key="run.anything.popup" timestamp="1603894193037">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="235" key="run.anything.popup/1920.52.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1603894193037" />
   </component>
 </project>
