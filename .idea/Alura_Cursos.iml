@@ -3,9 +3,12 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infraestructure/Persistence" isTestSource="false" packagePrefix="Alura\Pdo\Infraestructure\Persistence\" />
+      <sourceFolder url="file://$MODULE_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infraestructure/Repository" isTestSource="false" packagePrefix="Alura\Pdo\Infraestructure\Repository\" />
+      <sourceFolder url="file://$MODULE_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Domain/Repository" isTestSource="false" packagePrefix="Alura\Pdo\Domain\Repository\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infraestructure" isTestSource="false" packagePrefix="Alura\Pdo\Infraestructure\" />
       <sourceFolder url="file://$MODULE_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Domain/Model" isTestSource="false" packagePrefix="Alura\Pdo\Domain\Model\" />
-      <sourceFolder url="file://$MODULE_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infrastructure" isTestSource="false" packagePrefix="Alura\Pdo\Infrastructure\Persistence\" />
       <sourceFolder url="file://$MODULE_DIR$/Aulas/Aulas_PHP/Composer/src" isTestSource="false" packagePrefix="Alura\BuscadorDeCursos\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
