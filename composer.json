@@ -12,7 +12,8 @@
         "guzzlehttp/guzzle": "^7.1",
         "symfony/dom-crawler": "^5.1.7",
         "symfony/css-selector": "^5.1",
-      "ext-pdo": "*"
+      "ext-pdo": "*",
+        "doctrine/orm": "^2.7"
     },
     "autoload": {
         "files": ["functions.php"],
@@ -22,7 +23,8 @@
             "Alura\\Pdo\\Infraestructure\\": "C:/Alura_Cursos/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infraestructure/",
             "Alura\\Pdo\\Domain\\Model\\": "C:/Alura_Cursos/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Domain/Model/",
             "Alura\\Pdo\\Domain\\Repository\\": "C:/Alura_Cursos/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Domain/Repository/",
-            "Alura\\BuscadorDeCursos\\": "C:/Alura_Cursos/Aulas/Aulas_PHP/Composer/src/"
+            "Alura\\BuscadorDeCursos\\": "C:/Alura_Cursos/Aulas/Aulas_PHP/Composer/src/",
+            "Alura\\Doctrine\\": "C:/Alura_Cursos/Aulas/Aulas_PHP/Doctrine/src/"
         }
     },
     "require-dev": {

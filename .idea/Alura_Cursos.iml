@@ -7,11 +7,22 @@
       <sourceFolder url="file://$MODULE_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infraestructure/Repository" isTestSource="false" packagePrefix="Alura\Pdo\Infraestructure\Repository\" />
       <sourceFolder url="file://$MODULE_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Domain/Repository" isTestSource="false" packagePrefix="Alura\Pdo\Domain\Repository\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Aulas/Aulas_PHP/Doctrine/src" isTestSource="false" packagePrefix="Alura\Doctrine\" />
       <sourceFolder url="file://$MODULE_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Infraestructure" isTestSource="false" packagePrefix="Alura\Pdo\Infraestructure\" />
       <sourceFolder url="file://$MODULE_DIR$/Aulas/Aulas_PHP/PDO/php-pdo-projeto-inicial/src/Domain/Model" isTestSource="false" packagePrefix="Alura\Pdo\Domain\Model\" />
       <sourceFolder url="file://$MODULE_DIR$/Aulas/Aulas_PHP/Composer/src" isTestSource="false" packagePrefix="Alura\BuscadorDeCursos\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/event-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/orm" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/persistence" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/felixfbecker/advanced-json-rpc" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/guzzle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/promises" />
